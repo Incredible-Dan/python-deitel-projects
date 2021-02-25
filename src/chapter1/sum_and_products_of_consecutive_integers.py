@@ -1,4 +1,8 @@
 # Sum of consecutive integers
+
+# Write a program that asks the user for a number n and
+# #prints the sum of the numbers 1 to n
+
 user_number = int(input('Enter the number: '))
 total = 0
 counter = 0
@@ -11,6 +15,11 @@ print(total)
 
 
 # Multiplication  of consecutive integers
+
+# Write a program that asks the user for a number n and
+# #prints the sum of the numbers 1 to n
+
+
 user_number = int(input('Enter the number: '))
 product = 1
 counter = 0
