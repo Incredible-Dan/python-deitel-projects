@@ -6,7 +6,7 @@ counter = 0
 
 while user_number > 0:
     if user_number % 3 == 0 & user_number % 5 == 0:
-    counter = counter + 1
+        counter = counter + 1
     total = total + counter
     user_number = user_number - 1
-    print(total)
+print(total)
