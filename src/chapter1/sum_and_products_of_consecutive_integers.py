@@ -3,15 +3,7 @@
 # Write a program that asks the user for a number n and
 # #prints the sum of the numbers 1 to n
 
-user_number = int(input('Enter the number: '))
-total = 0
-counter = 0
 
-while user_number > 0:
-    counter = counter + 1
-    total = total + counter
-    user_number = user_number - 1
-print(total)
 
 
 # Multiplication  of consecutive integers
@@ -28,4 +20,4 @@ while user_number > 0:
     counter = counter + 1
     product = product * counter
     user_number = user_number - 1
-print(product)
+    print(product)
